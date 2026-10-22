@@ -1,0 +1,56 @@
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+.t_transform_capitilize{
+    text-transform: capitalize;
+}
+    
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+.t_left{
+    text-align: left;
+}
+.t_decoration1{
+    text-decoration: underline;
+}
+.t_decoration2{
+    text-decoration: overline;
+}
+.t_decoration3{
+    text-decoration: line-through;
+}
+.t_decoration4{
+    text-decoration: underline  overline  line-through;
+}
+.t_indent{
+    text-indent: 20px;
+}
+.t_shadow1{
+    color: rgb(0, 247, 255);
+    text-shadow:6px 10px 6px red;
+    font-size: 100px;
+
+}
+.t_shadow2{
+    color: green;
+    text-shadow:6px 10px 6px gold;
+    font-size: 100px;
+
+}
+
+.b_shadow{
+
+    box-shadow:6px 10px 6px gold;
+
+}
+.d_shadow{
+width: 500px;
+    filter: drop-shadow(6px 10px 6px red);
+}
