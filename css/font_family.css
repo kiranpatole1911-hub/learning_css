@@ -1,0 +1,45 @@
+.f_family1{
+    font-family: monospace;
+}
+.f_family2{
+    font-family: cursive;
+}
+.f_family3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.f_family4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f_family5{
+    font-family: Cambria;
+}
+.f_weight1{
+    font-weight: 600;
+    font-style: italic;
+}
+.b_properties{
+    border: 30px solid chocolate;
+}
+
+.b_properties1{
+    border: 30px dashed chocolate;
+}
+
+.b_properties2{
+    border: 30px groove chocolate;
+}
+
+.b_properties3{
+    border: 30px inset chocolate;
+}
+
+.b_properties4{
+    border: 30px double chocolate;
+}
+.b_properties5{
+    border: 30px solid gold;
+    border-radius:50px 30px 40px 20px;
+}
+.b_properties6{
+border-color: rgb(21, 255, 0) red green gold ;
+}

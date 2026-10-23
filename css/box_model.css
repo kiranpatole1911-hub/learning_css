@@ -1,0 +1,10 @@
+.box_model{
+    border: 6px double greenyellow;
+    padding: 30px; 
+    margin: 50px;
+}
+.box_model1{
+    border: 10px dotted navy;
+    padding: 50px 70px 50px 70px;
+    margin: 50px 80px 50px 80px;
+}

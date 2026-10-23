@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 300px;
+    border: 2px double gold;
+    padding: 10px;
+    background-color: rgb(143, 181, 188);
+    margin-bottom: 20px;
+}
+
+.box_static{
+    position: static;
+}
+.box_relative{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.box_Ads{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.box_sticky{
+    position: sticky;
+    top: 10px;
+}
+.box_fixed{
+    position: fixed;
+    right: 20px;
+}
