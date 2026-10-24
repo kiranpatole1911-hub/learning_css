@@ -1,0 +1,10 @@
+.bg_img{
+background-color: aqua;
+background-image: url("../images1/images (8).jpg");
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.h1_color{
+    color: aliceblue;
+}
