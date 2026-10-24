@@ -18,7 +18,7 @@
 .box_Ads{
     position: absolute;
     left: 300px;
-    top: 20px;
+    top: 200px;
 }
 .box_sticky{
     position: sticky;
@@ -26,5 +26,5 @@
 }
 .box_fixed{
     position: fixed;
-    right: 20px;
+    right: 2px;
 }
