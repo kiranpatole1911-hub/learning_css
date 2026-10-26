@@ -1,0 +1,39 @@
+h1:hover{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h2:active{
+    color: red;
+    cursor: pointer;
+}
+h3:hover{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+input:focus{
+    border: 10px dashed yellow;
+    background-color: black;
+    color: antiquewhite;
+
+}
+a:visited{
+    color: aqua;
+}
+p::first-letter{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+
+}
+p::first-line{
+    color: aqua;
+}
+ p::selection{
+    color:gold;
+    background-color: navy;
+ }
+ .class_p::first-line{
+    color: maroon;
+ }

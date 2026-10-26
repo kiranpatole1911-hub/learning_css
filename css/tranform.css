@@ -1,0 +1,53 @@
+.box_s{
+background-color: aqua;
+height: 150px;
+width: 150px;
+color: red;
+font-size: 30px;
+padding: 30px;
+margin: 20px;
+border: 20px solid rebeccapurple;
+transition: transform 5s ease-in;
+}
+body{
+    background-color: black;
+}
+
+.consectetur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box_s1:hover{
+    transform: translate(125px,125px);
+}
+
+.box_s2:hover{
+    transform: translateX(150px);
+}
+
+
+.box_s3:hover{
+    transform: translateY(150px);
+}
+
+.box_s4:hover{
+    transform: rotate(160deg);
+}
+
+.box_s5:hover{
+    transform: skew(150deg);
+    }
+.box_s6:hover
+{
+
+    transform: scale(1.0);
+}
+
+.box_s7:hover{
+    transform: scale(1.0),skew(150deg),translateX(50px);
+}
+
+
+
