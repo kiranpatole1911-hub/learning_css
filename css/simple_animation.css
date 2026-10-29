@@ -21,23 +21,29 @@ div{
 } */
 @keyframes movingcircle{
 0%{background-image:url("../images1/bmw logo wellpaper.jpg");
+    background-size: cover;
     left:0px;top:0px;
+
 }
 
 
 25%{background-image:url("../images1/images (5).jpg");
+    background-size: cover;
 left:200px;top:0px;
 }
 
 50%{background-image:url("../images1/pune.png");
+    background-size: cover;
     left:200px;top:200px;
 }
 
 75%{background-image:url("../images1/Red car.jpg");
+    background-size: cover;
 left:0px;top:200px;
 }
 
 100%{background-image:url("../images1/images (8).jpg");
+    background-size: cover;
 left:0px;top:0px;
 }
 }
