@@ -1,0 +1,43 @@
+div{
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    border-radius: 50%;
+    animation:movingcircle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-duration: alternate;
+}
+/* }
+@keyframes movingcircle{
+0%{background-color: aqua;left:0px;top:0px;}
+25%{background-color:red;left:200px;top:0px;}
+50%{background-color: blue;left:200px;top:200px;}
+75%{background-color: darkgoldenrod;left:0px;top:200px;}
+100%{background-color:aqua;left:0px;top:0px;}
+} */
+@keyframes movingcircle{
+0%{background-image:url("../images1/bmw logo wellpaper.jpg");
+    left:0px;top:0px;
+}
+
+
+25%{background-image:url("../images1/images (5).jpg");
+left:200px;top:0px;
+}
+
+50%{background-image:url("../images1/pune.png");
+    left:200px;top:200px;
+}
+
+75%{background-image:url("../images1/Red car.jpg");
+left:0px;top:200px;
+}
+
+100%{background-image:url("../images1/images (8).jpg");
+left:0px;top:0px;
+}
+}
